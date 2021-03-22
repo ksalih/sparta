@@ -4,5 +4,5 @@
   include_tasks: generate-install-config.yml
 - name: '{{ ansible_name_module }} | Init Manifests' 
   include_tasks: manifests-init.yml
-- name: '{{ ansible_name_module }} | Edit Manifests' 
-  include_tasks: manifests-edit.yml
+#- name: '{{ ansible_name_module }} | Edit Manifests' 
+#  include_tasks: manifests-edit.yml
